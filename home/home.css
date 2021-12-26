@@ -9,7 +9,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: white;
+	background: white;
 	z-index: 7;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .home {
-	background-color: white !important;
+	background: white !important;
 }
 .home a {
 	color: #39393a !important;
@@ -84,7 +84,7 @@
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
 }
 
 .hero-content {
@@ -149,7 +149,7 @@
 
 .quotes-carousel {
 	top: var(--nav-height);
-	background-color: #e5e5e5;
+	background: #e5e5e5;
 	width: 100%;
 	height: 80vh;
 	position: relative;
@@ -188,7 +188,7 @@
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .swiper-slide h1 {
@@ -228,7 +228,7 @@
 }
 
 .swiper-pagination-bullet-active {
-	background-color: white !important;
+	background: white !important;
 }
 
 .slide-h1 {
@@ -254,7 +254,7 @@
 	width: 100%;
 	height: 80vh;
 	text-align: justify;
-	background-color: var(--first-color);
+	background: var(--first-color);
 	line-height: 2rem;
 	letter-spacing: 1px;
 	display: flex;
@@ -301,7 +301,7 @@
 	background: white;
 	position: relative;
 	top: var(--nav-height);
-	background-color: #ade8f4;
+	background: #ade8f4;
 	overflow: hidden;
 	padding: 4rem 6rem;
 	height: fit-content;
@@ -342,7 +342,7 @@
 
 .heads-pos div {
 	padding: 1rem 0;
-	background-color: #f8edeb;
+	background: #f8edeb;
 	height: 3rem;
 	width: 100%;
 	margin-bottom: 0.5rem;
@@ -467,7 +467,7 @@
 
 .contact-sec {
 	width: 100%;
-	background-color: #e5e5e5;
+	background: #e5e5e5;
 	position: relative;
 	padding: 7% 0;
 	top: var(--nav-height);
@@ -548,7 +548,7 @@
 	height: 100%;
 	content: '';
 	z-index: 1;
-	background-color: var(--second-color);
+	background: var(--second-color);
 }
 
 .input {
@@ -631,7 +631,7 @@
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;
 	color: var(--theme);
-	background-color: white;
+	background: white;
 }
 
 .next-submit {
@@ -640,7 +640,7 @@
 
 .submit:hover,
 .next-submit:hover {
-	background-color: var(--theme);
+	background: var(--theme);
 	color: white;
 }
 
@@ -677,7 +677,7 @@
 		left: 0 !important;
 		top: 0;
 		position: absolute;
-		background-color: #ade8f4;
+		background: #ade8f4;
 	}
 
 	.SHK-heads-aside,
@@ -703,7 +703,7 @@
 	}
 
 	.heads + div {
-		background-color: var(--theme);
+		background: var(--theme);
 	}
 
 	.SHK-heads {
@@ -723,7 +723,7 @@
 		width: 100%;
 		height: 100%;
 		content: '';
-		background-color: rgba(0, 0, 0, 0.2);
+		background: rgba(0, 0, 0, 0.2);
 		top: 0;
 		left: 0;
 	}
@@ -886,7 +886,7 @@
 		width: 100%;
 		height: 100%;
 		content: '';
-		background-color: rgba(0, 0, 0, 0.2);
+		background: rgba(0, 0, 0, 0.2);
 	}
 
 	.contact-aside {

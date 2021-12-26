@@ -98,7 +98,7 @@ header {
 .menu-button span {
 	position: relative;
 	width: 16px;
-	background: #39393a;
+	background: #000000;
 	height: 3.5px;
 	transition: all 0.2s ease-in-out;
 }
@@ -107,7 +107,7 @@ header {
 .menu-button span::after {
 	width: 23px;
 	transition: all 0.2s ease-in-out;
-	background: #39393a;
+	background: #000000;
 	height: 3.5px;
 	content: '';
 	position: absolute;
@@ -200,12 +200,21 @@ header {
 }
 
 @media (max-width: 768px) {
+	.lp-aircraft-div
+	{
+		display: none;
+	}
 	.top-nav {
 		grid-template-columns: 1fr 2fr 1fr;
 	}
 
 	.menu-button {
 		justify-self: center;
+	}
+
+	.socialicons
+	{
+		width: 35%;
 	}
 
 	.bottom-nav {
@@ -221,7 +230,8 @@ header {
 	}
 
 	.menu-button {
-		display: block;
+		display: flex;
+		left: 15px;
 	}
 
 	header.side-bar .bottom-nav {

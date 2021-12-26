@@ -6,7 +6,7 @@
 }
 
 .activities {
-	background-color: white !important;
+	background: white !important;
 }
 .activities a {
 	color: #39393a !important;
@@ -50,7 +50,7 @@
 .section3 {
 	position: relative;
 	height: 70vh;
-	background-color: #c8e7f2;
+	background: #c8e7f2;
 }
 
 .title3Activities {
@@ -91,7 +91,7 @@ h3 {
 	align-items: center;
 
 	font-family: sans-serif;
-	background-color: #334756;
+	background: #334756;
 	color: rgb(240, 240, 240);
 	border-radius: 10px;
 }
@@ -131,7 +131,7 @@ h3 {
 	letter-spacing: 2px;
 	font-weight: 500;
 	color: #000;
-	background-color: #f5f7fb;
+	background: #f5f7fb;
 	border: none;
 	border-radius: 20px;
 	box-shadow: 0px 8px 15px rgba(47, 47, 47, 0.2);
@@ -140,14 +140,14 @@ h3 {
 	outline: none;
 }
 .btn:hover {
-	background-color: #29cccc;
+	background: #29cccc;
 	box-shadow: 0px 15px 20px rgba(37, 184, 171, 0.4);
 	color: #f5f7fb;
 	transform: translateY(-7px);
 }
 
 .club {
-	background-color: #f5f7fb;
+	background: #f5f7fb;
 }
 .camptitle {
 	position: relative;
@@ -193,7 +193,7 @@ h3 {
 
 	border-radius: 20px 0px 0px 20px;
 	box-shadow: 50px 70px 140px 0 rgba(130, 136, 171, 0.2);
-	background-color: white;
+	background: white;
 }
 .clubContentCard2 {
 	border-radius: 0px 20px 20px 0px;

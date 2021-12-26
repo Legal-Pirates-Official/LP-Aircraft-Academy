@@ -5,7 +5,7 @@
 }
 
 .about {
-	background-color: white !important;
+	background: white !important;
 }
 .about a {
 	color: #39393a !important;
@@ -67,7 +67,7 @@
 	font-size: 20px;
 	padding: 30px;
 	border-radius: 8px;
-	background-color: #0097fc3f;
+	background: #0097fc3f;
 	text-align: justify;
 }
 .chairman h2 , .vice-chairman h2 , .principal h2 , .chairman h3 , .vice-chairman h3 , .principal h3
