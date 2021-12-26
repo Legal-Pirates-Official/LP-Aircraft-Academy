@@ -98,7 +98,7 @@ header {
 .menu-button span {
 	position: relative;
 	width: 16px;
-	background: #000000;
+	background: #ffffff;
 	height: 3.5px;
 	transition: all 0.2s ease-in-out;
 }
@@ -107,7 +107,7 @@ header {
 .menu-button span::after {
 	width: 23px;
 	transition: all 0.2s ease-in-out;
-	background: #000000;
+	background: #ffffff;
 	height: 3.5px;
 	content: '';
 	position: absolute;
