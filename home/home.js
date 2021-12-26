@@ -24,7 +24,9 @@ window.addEventListener('load', () => {
 		body.style.overflow = 'hidden';
 		gsap
 			.timeline()
-			.to('.preload img', { duration: 0.5, y: 0, autoAlpha: 1, delay: 0.5 })
+			.to('.preload h1', { duration: 0.5, y: 0, autoAlpha: 1, delay: 0.5 })
+			.to('.preload img', { duration: 0.5, y: 0, autoAlpha: 1}, '-=0.5')
+			.to('.legal-pirates', { duration: 0.5, y: 0, autoAlpha: 1, delay: 0.5 })
 			.to('.preload', { duration: 1, autoAlpha: 0 }, '>.8')
 			.set('body', { overflow: 'auto' })
 			.add(() => {

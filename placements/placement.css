@@ -138,6 +138,17 @@
   overflow: hidden;
 }
 
+#div::before
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.4), rgba(195, 55, 100, 0.4));
+}
+
 #div span {
   height: 70%;
   width: 80%;
@@ -150,6 +161,7 @@
 
 #div span h1 {
   font-size: 35px;
+  z-index: 1;
 }
 #div span p {
   font-size: 17px;
@@ -162,27 +174,27 @@ h1 {
 }
 
 .placementCell {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://www.gulfstream.com/assets/images/aircraft/landing/carousel/d_g500_a_mkt_00283.jpg") center/cover;
   color: white;
 }
 .Training {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://robbreport.com/wp-content/uploads/2021/04/Lead-eFlyer-800-pic2.jpg") center/cover;
   color: white;
 }
 .Recruiters {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://globetrender.com/wp-content/uploads/2020/08/EAG-Union-Jack-05-scaled.jpg") center/cover;
   color: white;
 }
 .placementContact {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://www.aerocontact.com/public/img/aviaexpo/produits/images/87/detail_pilatus-pc-24_900x636.jpg") center/cover;
   color: white;
 }
 .Internship {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://honeywell.scene7.com/is/image/honeywell/AeroBT-A300_s_363153113_2880x1440") center/cover;
   color: white;
 }
 .MOU {
-  background: url("https://images.unsplash.com/photo-1513922203437-86dc31ea478f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW5lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background: url("https://hips.hearstapps.com/pop.h-cdn.co/assets/17/40/1507309427-df-zunumfirst-4-zunumaero.jpg") center/cover;
   color: white;
 }
 
