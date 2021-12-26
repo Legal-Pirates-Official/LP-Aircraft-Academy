@@ -677,7 +677,7 @@
 		left: 0 !important;
 		top: 0;
 		position: absolute;
-		background: #ade8f4;
+		background: var(--second-color);
 	}
 
 	.SHK-heads-aside,
