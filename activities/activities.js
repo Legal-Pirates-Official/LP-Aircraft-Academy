@@ -46,7 +46,7 @@ if (
 				},
 				"<"
 			);
-	};x
+	};
 	gsapfunc(".unopen1", "0px 20px 20px 0px", ".image1", ".clubContentCard1");
 	gsapfunc(
 		".unopen2",
